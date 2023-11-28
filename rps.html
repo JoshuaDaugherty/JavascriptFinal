@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/rps.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only"></span></a>
+            <a class="nav-item nav-link" href="faq.html">FAQ</a>
+            <a class="nav-item nav-link" href="rps.html">RPS</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+
+  <section class="game"> 
+      
+      <div class="title">Rock Paper Scissor</div> 
+        
+        
+      <div class="score">   
+          <div class="playerScore"> 
+              <h2>Player</h2> 
+              <p class="p-count count">0</p> 
+
+          </div>        
+          <div class="computerScore"> 
+              <h2>Computer</h2> 
+              <p class="c-count count">0</p> 
+
+          </div> 
+      </div> 
+      
+      <div class="move">Choose your move</div> 
+        
+        
+      <div class="movesleft">Moves Left: 10 </div> 
+        
+       
+      <div class="options"> 
+          <button class="rock">Rock</button> 
+          <button class="paper">Paper</button> 
+          <button class="scissor">Scissors</button>     
+      </div> 
+        
+        
+      <div class="result"></div> 
+        
+        
+      <button class="reload"></button> 
+
+  </section> 
+
+  <script src="java/rps.js"></script>
+</body> 
+</html>
